@@ -1,0 +1,13 @@
+POST http://localhost:5000/api/auth/signup
+Content-Type: application/json
+
+{
+"fullname" : "Vũ Ngọc Phước",
+"email" : "phuocvungoc9997@gmail.com",
+"password" : "123456789",
+"confirmPassword" : "123456789",
+"phone": "0386114415"
+}
+
+###
+POST http://localhost:5000/api/carts/order

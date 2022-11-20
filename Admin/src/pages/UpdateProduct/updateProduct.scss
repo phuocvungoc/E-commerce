@@ -1,0 +1,75 @@
+.tm-edit-product-form {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.container-new {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-new100 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  width: 200px;
+}
+
+.upload-container {
+  background-color: rgb(224, 223, 223);
+  height: 50px;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button-update {
+  display: block;
+  padding: 5px;
+  border-radius: 5px !important;
+  color: white;
+}
+
+.update {
+  background-color: rgb(71, 71, 244);
+}
+
+.remove {
+  background-color: rgb(224, 50, 50);
+}
+
+.btn-group--update {
+  display: flex;
+  justify-content: center;
+}
+
+.select-pay {
+  margin-left: 2rem;
+  background-color: rgb(230, 240, 240);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.select-pay:hover {
+  background-color: rgb(180, 244, 244);
+}
